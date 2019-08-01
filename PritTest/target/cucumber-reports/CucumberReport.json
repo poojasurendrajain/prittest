@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-01T09:24:29.761Z",
+        "line": 4,
+        "name": "Multiple Login",
+        "description": "",
+        "id": "login-functionality;multiple-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10624157500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "LoginTest.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 424730200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enters username and password",
+            "match": {
+              "location": "LoginTest.user_Enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 659134500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginTest.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Display message logged in successfully",
+            "match": {
+              "location": "LoginTest.display_message_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "  I want to use this template for my feature file",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  }
+]
